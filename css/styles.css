@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;    
+    flex-wrap: wrap;
+    background-color: #fdffb0;
+    border-bottom: 2px solid #333 ;
+    
+}
+
+body{   
+    background-color: #fcfdc8;
+}
+
+h1,h2,h3,h4,h5{
+    color: #70747a;
+}
+
+p,
+label{
+    color: #444;
+}
+
+img{
+    height: 120px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #001021;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+    
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0 5px 0;
+
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+
+textarea{
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;    
+}   
+
+.form-header{
+    padding: 15px 0 15px 0;
+}
+
+.form-header h3{
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #dfdfdf;
+    line-height: 30px;
+    width: 300px;
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.form-body h4{
+    margin-bottom: 30px;
+}
+
+/*.form-body .title{
+    margin-bottom: 15px;
+}*/
+
+.required-field{
+    color: #d80835
+}
+
+.box-input{ 
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+}
+
+.optional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #fdffb0;
+    border: 2px solid #001021;
+    color: #001021;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}   
+
+.btn-submit:hover{
+    background-color: #fff;
+    border: 1px solid #444;
+    color: green;
+}
+
+footer{
+    text-align: center;
+    margin: 20px 0 50px
+}
+
